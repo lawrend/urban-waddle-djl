@@ -1,0 +1,6 @@
+.right-bottom {
+  display: flex; 
+  width: 60%;
+  background-color: red;
+  height: 100%;
+}
