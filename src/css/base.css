@@ -30,7 +30,12 @@
   }
 
   .portrait-container {
-    height: 50%;
+    height: 75%;
+  }
+
+  .right-bottom {
+    padding: 10px;
+    text-align: left;
   }
 
 }

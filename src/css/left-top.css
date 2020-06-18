@@ -1,8 +1,10 @@
 .left-top {
   display: flex;
+  flex-direction: column; 
   width: 40%;
   background-color: #efefef; 
   height: 100%;
+  text-align: center;
 }
 
 
@@ -16,8 +18,12 @@
 }
 
 .portrait {
-  border-radius: 50%;
+  border-radius: 44%;
   height: 85%;
+}
+
+.bio-text {
+  color: #232323;
 }
 
 img {

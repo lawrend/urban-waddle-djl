@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PortraitContainer from './pictures/PortraitContainer.js';
+import BioBox from '../components/BioBox.js';
 import'../css/left-top.css';
 
 class LeftTop extends Component {
@@ -7,6 +8,7 @@ class LeftTop extends Component {
     return (
       <div className='left-top'>
         <PortraitContainer />
+        <BioBox />
       </div>
     )
   }

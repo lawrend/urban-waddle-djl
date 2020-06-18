@@ -4,4 +4,9 @@
   width: 60%;
   background-color: #fefefe;
   height: 100%;
+  text-align: center;
+}
+
+.intro-text {
+  color: red;
 }

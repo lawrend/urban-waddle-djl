@@ -2,6 +2,7 @@
   text-align: left;
   height: 100vh;
   width: 100vw;
+  font-family: 'Cooper Black';
 }
 
 .App-link {
@@ -30,29 +31,4 @@ html {
   flex-direction: column;
 }
 
-/*breakpoints*/
-@media screen and (max-width:754px) {
 
-  .base-container {
-    flex-direction: column;
-  }
-
-  .left-top {
-    width: 100%;
-    height: 40%;
-  }
-
-  .right-bottom {
-    width: 100%;
-    height: 60%;
-  }
-
-}
-@media screen and (min-width:1920px) {
-
-}
-
-
-@media print {
-
-}

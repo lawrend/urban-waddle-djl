@@ -6,7 +6,6 @@ class PortraitContainer extends Component {
     return (
       <div className='portrait-container'>
         <img className = 'portrait' src={portrait} />
-
       </div>
     )
   }
