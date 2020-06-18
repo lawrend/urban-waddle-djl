@@ -5,6 +5,8 @@
   background-color: #fefefe;
   height: 100%;
   text-align: center;
+  /* box-shadow: 5px 5px 22px; */
+  box-shadow: -14px -10px 22px #fefefe;
 }
 
 .intro-text {
