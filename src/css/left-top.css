@@ -14,3 +14,14 @@
   background-color: #ccc;
   width: 100%;
 }
+
+.portrait {
+  border-radius: 50%;
+  height: 85%;
+}
+
+img {
+  align-self: center;
+}
+
+

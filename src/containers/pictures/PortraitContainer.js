@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
+import portrait from '../../portrait.jpeg';
 
 class PortraitContainer extends Component {
   render() {
     return (
       <div className='portrait-container'>
-        You see a picture?
+        <img className = 'portrait' src={portrait} />
+
       </div>
     )
   }
