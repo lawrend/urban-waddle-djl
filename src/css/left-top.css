@@ -1,7 +1,16 @@
 .left-top {
   display: flex;
   width: 40%;
-  background-color: blue; 
+  background-color: #efefef; 
   height: 100%;
+}
 
+
+.portrait-container {
+  color: red;
+  display: flex;
+  justify-content: space-around; 
+  height: 40%;
+  background-color: #ccc;
+  width: 100%;
 }

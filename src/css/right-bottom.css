@@ -1,6 +1,7 @@
 .right-bottom {
   display: flex; 
+  justify-content: space-around; 
   width: 60%;
-  background-color: red;
+  background-color: #fefefe;
   height: 100%;
 }
