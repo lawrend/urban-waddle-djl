@@ -46,7 +46,16 @@
   text-align: left;
 }
 
-.code-text {
-  margin-top: 20px;
+.code-container a {
+  text-decoration: none;
   color: green; 
 }
+
+.code-container a:hover {
+  color: #1e1;
+}
+
+.code-text {
+  margin-top: 20px;
+}
+
