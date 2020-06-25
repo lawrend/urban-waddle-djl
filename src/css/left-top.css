@@ -36,6 +36,16 @@
 
 .bio-text-title {
   letter-spacing: 4px;
+}
 
+.code-container {
+  margin-top: 20px;
+  background-color: black;
+  height: 100%;
+  text-align: left;
+}
 
+.code-text {
+  margin: 20px;
+  color: green; 
 }

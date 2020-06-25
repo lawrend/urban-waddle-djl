@@ -5,8 +5,7 @@
   background-color: #efefef;
   height: 100%;
   text-align: center;
-  /* box-shadow: 5px 5px 22px; */
-  /* box-shadow: -14px -10px 22px #fefefe; */
+  box-shadow: 0px 0px 2px 0px #fefefe;
 }
 
 .intro-text {
