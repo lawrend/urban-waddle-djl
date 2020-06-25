@@ -2,13 +2,13 @@
   display: flex; 
   justify-content: space-around; 
   width: 60%;
-  background-color: #fefefe;
+  background-color: #efefef;
   height: 100%;
   text-align: center;
   /* box-shadow: 5px 5px 22px; */
-  box-shadow: -14px -10px 22px #fefefe;
+  /* box-shadow: -14px -10px 22px #fefefe; */
 }
 
 .intro-text {
-  color: red;
+  color: #336;
 }

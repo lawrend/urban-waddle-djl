@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column; 
   width: 40%;
-  background-color: #fefefe; 
+  background-color: #237; 
   height: 100%;
   text-align: center;
 
@@ -14,23 +14,28 @@
   display: flex;
   justify-content: space-around; 
   height: 40%;
-  background-color: #ccc;
+  /* background-color: #111188; */
+  background-color: #238;
+  opacity: 70%;
   width: 100%;
-  box-shadow: inset 0px -14px 22px #fefefe;
-  border-radius: 0 0 0 10;
+  box-shadow: inset 0px 0px 12px #fefefe;
+
+  border-radius: 50%;
 }
 
 .portrait {
-  border-radius: 44%;
+  border-radius: 50%;
   height: 85%;
+  align-self: center;
+  opacity: 70%;
 }
 
 .bio-text {
-  color: #232323;
+  color: #efefef;
 }
 
-img {
-  align-self: center;
+.bio-text-title {
+  letter-spacing: 4px;
+
+
 }
-
-
