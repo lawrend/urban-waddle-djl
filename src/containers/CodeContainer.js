@@ -4,7 +4,7 @@ import Code from '../components/Code.js';
 export default class CodeContainer extends Component {
   render() {
     return (
-      <div class="code-container">
+      <div className="code-container">
         <Code />
       </div>
       );
