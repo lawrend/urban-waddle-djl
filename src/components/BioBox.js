@@ -5,10 +5,10 @@ class BioBox extends Component {
     return (
       <div className='bio-text'>
         <h3 className='bio-text-title'>
-          douglas lawrence
+          douglas-lawrence
         </h3>
         <div className="bio-text-subhead">
-          proprietor
+          pro &#9775; prietor
         </div>
     </div>
     )

@@ -2,14 +2,8 @@
 
 .base-container {
   display: flex;
-  /* flex-direction: row; */ 
   width: 100%;
-  /* justify-content: flex-start; */  
-  /* align-items: center; */
-  /* color: red; */
-  /* background-color: #FCC; */
   height: 100%;
-  
 }
 
 /*breakpoints*/
