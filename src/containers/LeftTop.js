@@ -9,8 +9,8 @@ class LeftTop extends Component {
     return (
       <div className='left-top'>
         <PortraitContainer />
-        <BioBox />
         <CodeContainer />
+        <BioBox />
       </div>
     )
   }

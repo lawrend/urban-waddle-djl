@@ -25,9 +25,10 @@
 
 .portrait {
   border-radius: 50%;
-  height: 85%;
   align-self: center;
   opacity: 70%;
+  height: 3088px;
+  /* height: 100%; */
 }
 
 .bio-text {
