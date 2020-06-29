@@ -33,6 +33,16 @@
   color: green;
 }
 
+.intro-text a:hover {
+  color: #7FFF00;
+}
+
+
 .project-box-text {
   color: yellow;
+}
+
+
+.project-box-text a:hover {
+  color: #7FFF00;
 }

@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-around; 
   height: 40%;
-  /* background-color: #111188; */
+  background-color: #111188;
   /* background-color: #012; */
   opacity: 70%;
   width: 100%;
@@ -28,12 +28,14 @@
   align-self: center;
   opacity: 70%;
   height: 3088px;
+  z-index: 4;
   /* height: 100%; */
 }
 
 .bio-text {
   color: #efefef;
   letter-spacing: 4px;
+  margin-bottom: 8px;
 }
 
 .bio-text-title {
@@ -41,19 +43,23 @@
 }
 
 .code-container {
+  opacity: 30%;
+  /* height: 3088px; */
   margin-top: 20px;
   background-color: black;
   height: 100%;
   text-align: left;
+  /* z-index: 10; */
 }
 
 .code-container a {
   text-decoration: none;
-  color: green; 
+  color: #2d2; 
 }
 
 .code-container a:hover {
-  color: #1e1;
+  color: #7FFF00;
+
 }
 
 .code-text {
