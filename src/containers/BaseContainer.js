@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import RightBottom from './RightBottom.js';
-import LeftTop from './LeftTop.js';
+import RightBottom from './homepage/RightBottom.js';
+import LeftTop from './homepage/LeftTop.js';
 import '../css/base.css';
 
 class BaseContainer extends Component {

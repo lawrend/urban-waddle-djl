@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import BirthTime from '../components/BirthTime.js';
-import DeathTime from '../components/DeathTime.js';
+import BirthTime from '../../components/bday/BirthTime.js';
+import DeathTime from '../../components/bday/DeathTime.js';
 import PresentContainer from './PresentContainer';
 
 import moment from 'moment';

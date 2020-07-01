@@ -1,6 +1,6 @@
 // holds bday input
 import React, { Component } from 'react';
-import BdayInput from '../components/BdayInput.js'
+import BdayInput from '../../components/bday/BdayInput.js'
 
 class EightHoursContainer extends Component {
   constructor(props) {

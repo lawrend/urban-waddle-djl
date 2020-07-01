@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import PortraitContainer from './pictures/PortraitContainer.js';
-import BioBox from '../components/BioBox.js';
+import PortraitContainer from '../pictures/PortraitContainer.js';
+import BioBox from '../../components/homepage/BioBox.js';
 import CodeContainer from './CodeContainer.js';
-import'../css/left-top.css';
+import'../../css/left-top.css';
 
 class LeftTop extends Component {
   render() {

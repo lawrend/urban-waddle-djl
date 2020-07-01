@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Code from '../components/Code.js';
+import Code from '../../components/homepage/Code.js';
 import {Link} from 'react-router-dom';
 
 export default class CodeContainer extends Component {

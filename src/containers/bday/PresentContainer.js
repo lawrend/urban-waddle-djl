@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TodayTime from '../components/TodayTime';
+import TodayTime from '../../components/bday/TodayTime';
 
 class PresentContainer extends Component {
   render() {
