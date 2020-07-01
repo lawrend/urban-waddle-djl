@@ -3,13 +3,6 @@
 .eight-hours-container {
   height: 100%;
   z-index: 1;
-  /* height: auto; */
-
-  /* background-image: url(../portrait.jpeg); */
-  /* background-repeat: no-repeat; */
-  /* background-size: 100%; */
-  /* opacity: .3; */
-  
 }
 
 .eight-hours-container-background {
@@ -29,11 +22,9 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: orange;
+  background-color: #33e;
 
-  /* background-image: url(../earlvincemac.jpeg); */
   position: absolute;
-  /* background-size: cover; */
   opacity: .2;
   z-index: -2;
 }
@@ -41,8 +32,6 @@
 /* BDAY INPUT */
 .bday-input-form-container {
   height: 100%;
-  
-  /* text-align: center; */
 }
 
 .bday-input-form {
@@ -51,7 +40,7 @@
 .bday-input-label {
   width: 40vw;
   font-size: 40px;
-  margin: 16px;
+  padding: 16px;
 }
 
 #results-button {
@@ -60,12 +49,18 @@
 
 .bday-input-field {
 
-  color: #DFA949;
+  /* color: #DFA949; */
   /* color: green; */
+  outline: none;
+  border: none;
+  border-bottom: 2px solid green;
+
+  color: #77bb77; 
   font-size: 40px;
   margin: 16px;
   width: 40vw;
   text-align: center;
+  background-color: inherit;
 }
 
 
