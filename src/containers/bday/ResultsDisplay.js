@@ -44,8 +44,11 @@ export default class ResultsDisplay extends Component {
         <div className="results-display-background-color" />
 
         <div className='times'>
+
           <BirthTime birthtime={this.calculateBirth(bday)} />
+
           <PresentContainer bday={bday} />
+
           <DeathTime diedtime={this.calculateDeath(bday)} />
         </div>
 
@@ -53,8 +56,8 @@ export default class ResultsDisplay extends Component {
           <span className="spanner" style={{width: `${this.calculatePercentage(bday)}%`}}></span>
         </div>
 
-        <div className='footer'>
-          <Link to={"/"}>Home</Link>
+        <div className="home-link">
+          <Link to={"/"}>HOME</Link>
         </div>
 
       </div>

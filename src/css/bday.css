@@ -9,8 +9,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: orange;
-
+  /* background-color: orange; */
   background-image: url(../earlvincemac.jpeg);
   position: absolute;
   background-size: cover;
@@ -23,7 +22,6 @@
   height: 100%;
   width: 100%;
   background-color: #33e;
-
   position: absolute;
   opacity: .2;
   z-index: -2;
@@ -48,13 +46,10 @@
 }
 
 .bday-input-field {
-
-  /* color: #DFA949; */
-  /* color: green; */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   outline: none;
   border: none;
   border-bottom: 2px solid green;
-
   color: #77bb77; 
   font-size: 40px;
   margin: 16px;
@@ -66,6 +61,7 @@
 
 /* RESULTS */
 .results-display {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -92,7 +88,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background-color: orange;
+  background-color: blue;
 
   /* background-image: url(../earlvincemac.jpeg); */
   position: absolute;
@@ -103,7 +99,9 @@
 }
 
 .times {
+  margin-top: 40px;
   width: 88vw;
+  height: 40%;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -114,42 +112,53 @@
 }
 
 .time-readout {
-
-  color: #DFA949;
+  color: #77bb77; 
+  /* color: #DFA949; */
   /* color: red; */
 }
 
 /* PROGRESS BAR THING */
 .meter { 
-  height: 24px;  /* Can be anything */
+  opacity: .5;
+  height: 50px;  /* Can be anything */
   width: 72vw;
   position: relative;
-  background: #555;
-  -moz-border-radius: 24px;
-  -webkit-border-radius: 24px;
-  border-radius: 24px;
-  padding: 8px;
-  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  background: rgb(43,194,83);
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+  border-radius: 10%;
+  padding: 4px;
+  /* box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); */
   margin: 16px;
 }
 
 .spanner {
+  opacity: .7;
   display: block;
   height: 100%;
+  /* border-radius: 40%; */
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
 
-  background-color: #F1E8DF;
+  background-color: #331;
   /* background-color: rgb(43,194,83); */
-  box-shadow: 
-  inset 0 2px 9px  rgba(255,255,255,0.3),
-  inset 0 -2px 6px rgba(0,0,0,0.4);
+  /* box-shadow: */ 
+  /* inset 0 2px 9px  rgba(255,255,255,0.3), */
+  /* inset 0 -2px 6px rgba(0,0,0,0.4); */
   position: relative;
   overflow: hidden;
 }
 
+.home-link {
+  margin: 100px;
+}
+
+.home-link a {
+  text-decoration: none;
+  color: green;
+}
 
 @media screen and (max-width: 668px) {
 
