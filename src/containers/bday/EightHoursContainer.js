@@ -1,6 +1,7 @@
 // holds bday input
 import React, { Component } from 'react';
 import BdayInput from '../../components/bday/BdayInput.js'
+import '../../css/bday.css';
 
 class EightHoursContainer extends Component {
   constructor(props) {
@@ -22,6 +23,9 @@ class EightHoursContainer extends Component {
     return (
 
       <div className='eight-hours-container'>
+        <div className='eight-hours-container-background'/>
+
+        <div className='eight-hours-container-background-color'/>
         <BdayInput bday={this.state.bday} onSubmit={this.handleSubmit} handleChange={this.handleChange}/>
       </div>
 

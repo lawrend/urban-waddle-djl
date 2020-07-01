@@ -39,30 +39,25 @@ export default class ResultsDisplay extends Component {
     const bday = this.props.match.params.month + "/" + this.props.match.params.day + "/" + this.props.match.params.year;
 
     return (
-      <div>
-        <div className="results-display">
+      <div className="results-display">
+        <div className="results-display-background" />
+        <div className="results-display-background-color" />
 
-          <div className='times'>
-
-              <BirthTime birthtime={this.calculateBirth(bday)} />
-
-              <PresentContainer bday={bday} />
-
-
-              <DeathTime diedtime={this.calculateDeath(bday)} />
-
-          </div>
-
-          <div className="meter">
-            <span className="spanner" style={{width: `${this.calculatePercentage(bday)}%`}}></span>
-          </div>
-
+        <div className='times'>
+          <BirthTime birthtime={this.calculateBirth(bday)} />
+          <PresentContainer bday={bday} />
+          <DeathTime diedtime={this.calculateDeath(bday)} />
         </div>
+
+        <div className="meter">
+          <span className="spanner" style={{width: `${this.calculatePercentage(bday)}%`}}></span>
+        </div>
+
         <div className='footer'>
           <Link to={"/"}>Home</Link>
         </div>
-      </div>
 
+      </div>
       )
 }
 }

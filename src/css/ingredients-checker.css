@@ -1,0 +1,80 @@
+/* INGREDIENTS CHECKER */
+
+.ingredients-checker-container {
+  height: 100%;
+  
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+}
+
+/* CHECKER FORM */
+.checker-input-form {
+}
+
+.checker-input-label {
+  font-size: 40px;
+  width: 40vw;
+  margin: 16px;
+}
+
+#hidden-results-button {
+  visibility: hidden;
+}
+
+.checker-input-field {
+
+  color: #DFA949;
+  /* color: green; */
+  font-size: 40px;
+  margin: 16px;
+  width: 40vw;
+  text-align: center;
+}
+
+/* RESULTS */
+.flex-container-name-status {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+
+.ingredients-name {
+  width: 50%;
+  margin-left: 16px;
+}
+
+.found {
+  color: red;
+  /* width: 16vw; */
+}
+
+.not-found {
+  color: green;
+  /* width: 16vw; */
+}
+
+@media screen and (max-width: 668px) {
+
+  .checker-input-field {
+    font-size: 24px;
+    width: 64vw;
+  }
+  .checker-input-label {
+    font-size: 24px;
+  }
+
+  .flex-container-name-status {
+    font-size: 16px;
+  }
+  .found {
+    font-size: 16px;
+  }
+
+  .not-found {
+    font-size: 16px;
+  }
+}
+
+

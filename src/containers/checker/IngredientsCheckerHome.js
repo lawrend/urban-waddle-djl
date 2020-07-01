@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CheckerInputForm from '../../components/checker/CheckerInputForm.js';
 import CheckerResultsContainer from './CheckerResultsContainer.js'
 import CheckerIngredientResult from '../../components/checker/CheckerIngredientResult.js';
+import '../../css/ingredients-checker.css';
 
 class IngredientsCheckerHome extends Component {
   constructor(props) {
