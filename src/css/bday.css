@@ -101,7 +101,7 @@
 .times {
   margin-top: 40px;
   width: 88vw;
-  height: 40%;
+  height: 30%;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -112,9 +112,9 @@
 }
 
 .time-readout {
-  color: #77bb77; 
+  /* color: #77bb77; */ 
   /* color: #DFA949; */
-  /* color: red; */
+  color: red;
 }
 
 /* PROGRESS BAR THING */
@@ -171,11 +171,11 @@
   }
 
   .birth-time {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .birth-time .time-readout {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .today-time {
@@ -183,11 +183,11 @@
   }
 
   .death-time {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .death-time .time-readout {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .time-readout {

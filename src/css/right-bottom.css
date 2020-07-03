@@ -33,7 +33,7 @@
 
 .right-bottom-lower a {
   text-decoration: none;
-  color: #22c422;
+  /* color: #22c422; */
 }
 
 .right-bottom-lower a:hover {
@@ -43,7 +43,11 @@
 .intro-text {
   color: #77bb77; 
   z-index: 1;
-  /* color: #22c422; */
+}
+
+.intro-text a {
+  text-decoration: none;
+  color: orange;
 }
 
 .intro-text a:hover {
@@ -56,17 +60,18 @@
 
 
 .project-box-text {
+  color: #77bb77; 
 
   /* z-index: 4; */
   /* color: yellow; */
 }
 
 .project-box-text a {
-
-  /* color: yellow; */
+  color: orange;
 }
 
 
 .project-box-text a:hover {
-  color: blue;
+
+  /* color: orange; */
 }

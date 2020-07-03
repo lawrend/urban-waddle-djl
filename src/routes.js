@@ -22,14 +22,3 @@ class Routes extends Component {
 
 export default withRouter(Routes);
 
-
-// <Switch>
-//         <Route exact path="/" component={App} />
-//         <Route path="/home" component={Home} />
-//         <Route path="/eight-hours" component={EightHoursContainer} />
-//         <Route path="/results/:month/:day/:year" component={ResultsDisplay} />
-//         <Route path="/ingredients-checker" component={IngredientsCheckerHome} />
-//         <Route path="/about" component={About} />
-//         <Route component={ErrorRoute} />
-//  </Switch>
-

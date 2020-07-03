@@ -13,11 +13,7 @@ class RightBottom extends Component {
           <IntroBox />
         </div>
         <div className='right-bottom-lower'>
-
-          <Link to="/checker">
-            <ProjectBox />
-
-          </Link>
+          <ProjectBox />
         </div >
       </div>
       )
