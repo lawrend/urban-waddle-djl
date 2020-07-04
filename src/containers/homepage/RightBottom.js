@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import IntroBox from '../../components/homepage/IntroBox'
 import ProjectBox from '../../components/homepage/ProjectBox'
-import {Link} from 'react-router-dom';
 import '../../css/right-bottom.css';
 
 class RightBottom extends Component {

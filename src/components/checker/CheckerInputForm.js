@@ -1,5 +1,4 @@
 import React  from 'react';
-import {Link} from 'react-router-dom';
 // import '../css/ingredients-checker.css';
 
 export default props => (

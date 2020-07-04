@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import portrait from '../../portrait.jpeg';
-import BioBox from '../../components/homepage/BioBox.js';
 
 class PortraitContainer extends Component {
   render() {
