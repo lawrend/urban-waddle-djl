@@ -2,34 +2,29 @@
   display: flex; 
   justify-content: space-around; 
   flex-direction: column;
-  width: 60%;
-  /* background-color: #efefef; */
+  width: 70%;
   text-align: left;
-  /* box-shadow: 0px 0px 2px 0px #fefefe; */
 }
 
 .right-bottom-upper {
   display: flex; 
   justify-content: space-around; 
   background-color: black; 
-  height: 50%;
+  height: 65%;
   text-align: right;
-  /* box-shadow: 0px 0px 2px 0px #fefefe; */
 }
 
 .right-bottom-lower {
-  opacity: 50%;
+  opacity: 0.5;
   display: flex; 
   justify-content: space-around; 
   background-color: blue;
-  height: 50%;
+  height: 35%;
   text-align: left;
-  /* box-shadow: 0px 0px 2px 0px #fefefe; */
 }
 
 .right-bottom-lower a {
   text-decoration: none;
-  /* color: #22c422; */
 }
 
 .right-bottom-lower a:hover {

@@ -8,20 +8,26 @@
 }
 
 /*breakpoints*/
-@media screen and (max-width:750px) {
+
+@media only screen and (max-width:779px) {
 
   .base-container {
     flex-direction: column;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .left-top {
     width: 100%;
-    height: 40%;
+    height: 20%;
   }
   .bio-text {
     margin-top: -10px;
     display: none;
+  }
+
+  .portrait {
+    position: fixed;
+    
   }
 
   .bio-text-subhead {
@@ -29,6 +35,7 @@
   }
 
   .code-container {
+    background-color: #222;
   }
 
   .code-text {
@@ -38,9 +45,9 @@
 
   .right-bottom {
     width: 100%;
-    height: 60%;
+    height: 80%;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .right-bottom-upper {
@@ -48,33 +55,45 @@
   }
   
   .intro-text {
-    width: 70%;
+    width: 85%;
   }
 
   .right-bottom-lower {
-
+    background-color: #112388;
   }
 
   .project-box-text {
-    width: 70%;
+    width: 90%;
   }
 
   .portrait-container {
+    background-color: #1122dd;
   }
 }
 
-@media screen and (max-width:956px) {
-  .base-container {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width:856px) {
+@media only screen and (min-width:600px) {
   .base-container {
     font-size: 18px;
   }
 }
-@media screen and (min-width:1920px) {
+
+@media only screen and (min-width:1014px) {
+  .base-container {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width:1186px){
+.base-container {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width:1920px) {
+  .base-container {
+    font-size: 28px;
+  }
+
 
 }
 
