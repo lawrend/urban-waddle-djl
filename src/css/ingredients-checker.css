@@ -2,6 +2,7 @@
 
 .ingredients-checker-container {
   height: 100%;
+  background-color: #fdfdfd;
   
   /* display: flex; */
   /* flex-direction: column; */
@@ -24,7 +25,7 @@
 
 .checker-input-field {
 
-  color: #DFA949;
+  /* color: #DFA949; */
   /* color: green; */
   font-size: 40px;
   margin: 16px;
