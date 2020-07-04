@@ -33,10 +33,18 @@
 }
 
 .bio-text {
-  color: #efefef;
   letter-spacing: 4px;
   margin-bottom: 20px;
   z-index: 2;
+}
+
+.bio-text a {
+  text-decoration: none;
+  color: #efefef;
+}
+
+.bio-text a:hover {
+  color: orange;
 }
 
 .bio-text-title {
@@ -44,6 +52,8 @@
 }
 
 .code-container {
+
+  /* color: #2d2; */ 
   opacity: 30%;
   /* height: 3088px; */
   margin-top: 20px;

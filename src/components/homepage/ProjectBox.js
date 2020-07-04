@@ -7,8 +7,8 @@ export default props => (
         <h2>Sometimes I'm like...</h2>
 
     <p>I get too focused on <a href="https://www.wikipedia.org/wiki/consumerism" target="_blank">getting stuff</a></p>
-    <p>I donn't do stuff.</p>
-    <p>Fear > Love</p>
+    <p>I make <a href="https://www.goodreads.com/quotes/tag/mistakes" target="_blank">mistakes</a></p>
+    <p>I try to<a href="https://www.wikipedia.org/wiki/zen" target="_blank"> accept them</a></p>
       </code>
 </div>
 
