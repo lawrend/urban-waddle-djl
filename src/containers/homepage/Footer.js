@@ -4,6 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className='footer'>
+
       <a href="https://www.github.com/lawrend" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-github"></i>
       </a>
