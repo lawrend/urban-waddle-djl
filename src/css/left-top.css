@@ -41,8 +41,14 @@
 }
 
 .bio-text-title {
+  margin-top: 20px;
+  font-size: 30px;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+}
 .code-container {
   opacity: 0.3;
   margin-top: 20px;

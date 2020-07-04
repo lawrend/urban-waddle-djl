@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import RightBottom from './homepage/RightBottom.js';
 import LeftTop from './homepage/LeftTop.js';
+import Footer from './homepage/Footer.js';
 import '../css/base.css';
 
 class BaseContainer extends Component {
@@ -9,6 +10,7 @@ class BaseContainer extends Component {
       <div className='flex-div base-container'>
         <LeftTop />
         <RightBottom />
+        <Footer />
       </div>
     )
   }
