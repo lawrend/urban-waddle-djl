@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CheckerInputForm from '../../components/checker/CheckerInputForm.js';
 import CheckerResultsContainer from './CheckerResultsContainer.js'
+import {Link} from 'react-router-dom';
 import '../../css/ingredients-checker.css';
 
 class IngredientsCheckerHome extends Component {
@@ -24,6 +25,7 @@ class IngredientsCheckerHome extends Component {
       <div className="ingredients-checker-container">
         <CheckerInputForm ingToCheck={this.state.ingToCheck} onSubmit={this.handleSubmit} handleChange={this.handleChange} />
         <CheckerResultsContainer results={this.state.ingToCheck.toLowerCase().split(', ')}/>
+        <Link to="/">home</Link>
       </div>
       )
   }

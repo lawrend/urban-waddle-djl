@@ -13,9 +13,53 @@
 
 /*breakpoints*/
 
-@media all and (orientation:landscape) {
+/*landscape issues*/
+@media only screen and (orientation:landscape) and (max-height:828px) {
+  .right-bottom {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-height:718px) {
+  .right-bottom {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-height:609px) {
+  .right-bottom {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-height:543px) {
+  .right-bottom {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-height:475px) {
   .right-bottom {
     font-size: 13px;
+  }
+}
+
+/*portrait issues*/
+@media only screen and (min-width:1920px) {
+  .base-container {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width:1186px){
+.base-container {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width:1014px) {
+  .base-container {
+    font-size: 24px;
   }
 }
 
@@ -39,6 +83,7 @@
     width: 100%;
     height: 20%;
   }
+  
   .bio-text {
     margin-top: -10px;
     display: none;
@@ -46,7 +91,6 @@
 
   .portrait {
     position: fixed;
-    
   }
 
   .bio-text-subhead {
@@ -97,27 +141,6 @@
     font-size: 18px;
   }
 }
-
-@media only screen and (min-width:1014px) {
-  .base-container {
-    font-size: 24px;
-  }
-}
-
-@media only screen and (min-width:1186px){
-.base-container {
-    font-size: 28px;
-  }
-}
-
-@media only screen and (min-width:1920px) {
-  .base-container {
-    font-size: 28px;
-  }
-
-
-}
-
 
 @media print {
 
