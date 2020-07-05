@@ -10,7 +10,7 @@ export default props => (
       <p>I teach <a href="https://www.testmasters.net" target="_blank" rel="noopener noreferrer">LSAT classes</a></p>
       <p> and I <a href="https://www.github.com/lawrend" target="_blank" rel="noopener noreferrer">code</a></p>
     <p>my wife asked me to make her<Link to="/checker"> this</Link></p>
-    <p><a href="https://en.wikipedia.org/wiki/Mac_Miller" target="_blank" rel="noopener noreferrer">This guy</a> was <a href="https://www.npr.org/2018/08/06/635054748/mac-miller-tiny-desk-concert" target="_blank" rel="noopener noreferrer">awesome</a></p>
+    <p>Music--it's a <a href="https://www.npr.org/2018/08/06/635054748/mac-miller-tiny-desk-concert" target="_blank" rel="noopener noreferrer">beautiful thing</a></p>
   </code>
 
   </div>
