@@ -1,0 +1,84 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.typing-monkeys-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  margin-left: 16px;
+}
+
+.monkey-input-form-container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  height: 100%;
+  background-color: #fdfdfd;
+  
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+}
+
+/* CHECKER FORM */
+.monkey-input-form {
+  flex-direction: column;
+  display: flex;
+  /* align-items: center; */
+}
+
+.monkey-input-label {
+  font-size: 40px;
+  width: 40vw;
+  margin: 16px;
+}
+
+#monkey-results-button {
+  height: 40px;
+  color: green;
+  /* width: 50%; */
+  /* visibility: hidden; */
+}
+#monkey-stop-button {
+  height: 40px;
+  color: red;
+
+}
+
+.monkey-input-field {
+
+  /* color: #DFA949; */
+  /* color: green; */
+  font-size: 40px;
+  margin: 16px;
+  width: 40vw;
+  text-align: center;
+}
+
+/* RESULTS */
+.flex-container-monkey-results {
+  width: 100%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.monkey-stop-container {
+  /* display: flex; */
+}
+
+/* HOME LINK */
+.home-link {
+  color: blue;
+  text-decoration: none;
+}

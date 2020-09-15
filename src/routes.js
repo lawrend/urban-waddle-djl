@@ -5,6 +5,7 @@ import ErrorRoute from './components/ErrorRoute.js';
 import ResultsDisplay from './containers/bday/ResultsDisplay';
 import IngredientsCheckerHome from './containers/checker/IngredientsCheckerHome.js';
 import EightHoursContainer from './containers/bday/EightHoursContainer.js';
+import TypingMonkeysContainer from './containers/monkeys/TypingMonkeysContainer.js';
 
 class Routes extends Component {
   render() {
@@ -13,11 +14,12 @@ class Routes extends Component {
         <Route exact path="/" component={BaseContainer} />
         <Route exact path="/wakeup" component={EightHoursContainer} />
         <Route exact path="/checker" component={IngredientsCheckerHome} />
+        <Route exact path="/typingMonkeys" component={TypingMonkeysContainer} />
         <Route path="/results/:month/:day/:year" component={ResultsDisplay} />
         <Route component={ErrorRoute} />
-
-    </Switch>         )
-}
+      </Switch>
+    )
+  }
 };
 
 export default withRouter(Routes);
