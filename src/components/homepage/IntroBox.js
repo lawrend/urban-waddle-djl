@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default props => (
   <div className='intro-text'>
     <code>
-    <h1>Get a load of meeeee</h1>
+    <h1>Not so special</h1>
     <p>I went to <a href="https://www.law.berkeley.edu" target="_blank" rel="noopener noreferrer">law school</a></p>
       <p>I teach <a href="https://www.testmasters.net" target="_blank" rel="noopener noreferrer">LSAT classes</a></p>
       <p> and I <a href="https://www.github.com/lawrend" target="_blank" rel="noopener noreferrer">code</a></p>
