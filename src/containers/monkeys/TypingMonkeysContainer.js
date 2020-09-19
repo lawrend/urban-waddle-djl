@@ -20,14 +20,21 @@ class TypingMonkeysContainer extends Component {
   }
 
   monkeyType = (str) => {
-
     let newStr = "";
-    while(this.state.monkeysTyping === true && newStr.length < str.length) {
-      let newChar = Math.random().toString(36).substr(2,1);
-      if(newChar === str[newStr.length]) {
-        newStr += newChar;
-        this.setState({monkeyProgress: newStr})
+    function monkeyTypeHelper(s) {
+      if(newStr.length < str.length) {
+        let newChar = Math.random().toString(36).substr(2,1);
+        if(newChar === str[newStr.length]) {
+          newStr += newChar;
+          this.setState({monkeyProgress: newStr})
+        }
+      } else {
+        return;
       }
+
+    }
+    if(this.state.monkeysTyping === true) {
+      monkeyTypeHelper(str)
     }
   }
 
@@ -46,21 +53,21 @@ class TypingMonkeysContainer extends Component {
     return (
       <div className="typing-monkeys-container">
         <div>
-        <MonkeyInputForm monkeysToType={this.state.monkeysToType} onSubmit={this.handleSubmit} handleChange={this.handleChange} />
-      </div>
-      <div>
-        <MonkeyResults toType={this.state.monkeysToType.toLowerCase().split(', ')} results={this.state.monkeyProgress}/>
-      </div>
+          <MonkeyInputForm monkeysToType={this.state.monkeysToType} onSubmit={this.handleSubmit} handleChange={this.handleChange} />
+        </div>
+        <div>
+          <MonkeyResults toType={this.state.monkeysToType.toLowerCase().split(', ')} results={this.state.monkeyProgress}/>
+        </div>
 
         <div className="monkey-stop-container">
           <button id="monkey-stop-button" onClick={this.stopMonkeys}>Stop Monkeys</button>
-    </div>
+        </div>
         <div>
-        <Link to="/" className="home-link">home</Link>
-</div>
-      </div>
-      )
-  }
+          <Link to="/" className="home-link">home</Link>
+    </div>
+  </div>
+  )
+}
 }
 
 export default TypingMonkeysContainer;
