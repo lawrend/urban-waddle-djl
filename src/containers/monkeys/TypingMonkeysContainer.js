@@ -14,28 +14,30 @@ class TypingMonkeysContainer extends Component {
     }
   }
 
-  stopMonkeys = () => {
-    this.setState({monkeysTyping: false})
-    console.log(this.state)
-  }
+  // stopMonkeys = () => {
+  //  this.setState({monkeysTyping: false})
+  //   console.log(this.state)
+  // }
 
   monkeyType = (str) => {
     let newStr = "";
-    function monkeyTypeHelper(s) {
-      if(newStr.length < str.length) {
+
+    // function monkeyTypeHelper(s) {
+      while(newStr.length < str.length) {
         let newChar = Math.random().toString(36).substr(2,1);
         if(newChar === str[newStr.length]) {
           newStr += newChar;
           this.setState({monkeyProgress: newStr})
         }
-      } else {
-        return;
       }
+      // } else {
+      //   return;
+      // }
 
-    }
-    if(this.state.monkeysTyping === true) {
-      monkeyTypeHelper(str)
-    }
+    // }
+    // if(this.state.monkeysTyping === true) {
+    //   monkeyTypeHelper(str)
+    // }
   }
 
   handleChange = (e) => {
